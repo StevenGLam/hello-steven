@@ -1,6 +1,51 @@
-html, body, #wonders-map {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	width: 100%;
+html, body  {
+
+    background: linear-gradient(to right, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
+
+h2{
+    
+ color:   #fff;
+}
+#title{
+ 
+    	background: -webkit-linear-gradient(left, white, red);
+	background: linear-gradient(left, #878787, #000);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-family: 'Rammetto One', cursive;
+}
+
+.chassis{
+   max-width:700px;
+   margin:0 auto; 
+    text-align: center;
+}
+.countries{
+     margin:0 auto; 
+    display:grid;
+}
+
+#geo-map{
+    border: 1px solid;
+    	height: 600px;
+	margin:0 auto; 
+	width: 600px;
+}
+
+im{
+    width:250px;
+   height:auto;
+    
+}
+
+.flags{
+    
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+         grid-template-columns: 1fr 1fr;
+    justify-content: start;
+    
+}
+
+
